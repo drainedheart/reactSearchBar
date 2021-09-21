@@ -70,12 +70,9 @@ const SearchPage  = (props) => {
 
   
         <div style={Style} className="rectangle5" >
-        <div><div>Icons made by <a href="https://www.flaticon.com/authors/elias-bikbulatov" 
-        title="Elias Bikbulatov">Elias Bikbulatov</a> from 
-        <a href="https://www.flaticon.com/" 
-        title="Flaticon">www.flaticon.com</a></div>Free Inspection</div>
-        <div>File a Claim</div>
-        <div>Replace or Repair a Roof</div>
+        <div><a href="https://fontawesome.com/"><i class="fas fa-map-marker-alt"></i></a>Free Inspection</div>
+        <div><a href="https://fontawesome.com/"><i class="fas fa-file-alt"></i></a> File a Claim</div>
+        <div><a href="https://fontawesome.com/"><i class="fas fa-tools"></i></a>Replace or Repair a Roof</div>
 
             </div>
             

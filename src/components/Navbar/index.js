@@ -6,19 +6,20 @@ Bars,
 NavMenu,
 } from './NavbarElements';
 
-const Navbar = () => {
+const Navbar =  () => {
+	const Navbar = {color:"white"};
 return (
 	<Nav>
-		<Bars />
+		<Bars style={Navbar} />
 
 		<NavMenu>
-		<NavLink to='/home' >
+		<NavLink style={Navbar} to='/home' >
 			Home
 		</NavLink>
-		<NavLink to='/services' >
+		<NavLink style={Navbar} to='/services' >
 			Services
 		</NavLink>
-		<NavLink to='/howItWorks' >
+		<NavLink style={Navbar} to='/howItWorks' >
         How it Works
 		</NavLink>
 		
